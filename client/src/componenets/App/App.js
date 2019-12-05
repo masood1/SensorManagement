@@ -12,7 +12,7 @@ class App extends Component {
 
       <div className="App">
         
-        <AppContext.Provider value={{status:true}}>
+        <AppContext.Provider value={{status:true}}> 
         <AppBar/>
         <Mysocket/>
         </AppContext.Provider>

@@ -41,9 +41,10 @@ export default function MenuAppBar() {
       
       <AppBar position="static">
         <Toolbar>
-          <Typography variant="h6"  className={classes.title}>
+          <Typography variant="h6" align="left"  className={classes.title}>
             Sensor Management
           </Typography>
+
           <FormGroup align="right">
         <FormControlLabel
         className={classes.menuButton}
